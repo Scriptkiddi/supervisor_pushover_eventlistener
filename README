@@ -1,0 +1,9 @@
+# Usage
+This repo includes a Pushover eventlistener for supervisord it sends_messages
+after configuration to pushover when a process exits unexpectedly
+
+# installation
+* clone the repo to somewhere you can use it
+* copy the supervisor_pushover.conf to the supervisor.d/ folder
+* update the path in the supervisor_pushover.conf
+* add you own pushover keys 
